@@ -1,0 +1,5 @@
+
+> valency-streetwear@0.0.0 dev
+> node --env-file-if-exists=.env dev-server.js
+
+Valency dev server running at http://localhost:5173

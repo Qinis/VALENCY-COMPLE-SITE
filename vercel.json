@@ -1,0 +1,20 @@
+{
+  "framework": "vite",
+  "buildCommand": "tsc -b && vite build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://mtnorozhhirrfrapxysp.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_RlWvJXCOHOLRSHzLVOcXHw_V4DobIg-",
+    "SUPABASE_SERVICE_ROLE_KEY": "sb_secret_Owaq6v-76M2okGbmk5q_wQ_Q-0OSX_A",
+    "VITE_SUPABASE_URL": "https://mtnorozhhirrfrapxysp.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "sb_publishable_RlWvJXCOHOLRSHzLVOcXHw_V4DobIg-",
+    "VITE_GOOGLE_CLIENT_ID": "1065078894672-rmp5kp8vfjns5rn9kp5psfp16g691043.apps.googleusercontent.com",
+    "VITE_GOOGLE_AUTH_PROXY": "https://designarena.ai/auth/google/callback",
+    "FULLSTACK_PROJECT_REF": "mtnorozhhirrfrapxysp",
+    "FULLSTACK_RESTORE_API_URL": "https://designarena.ai/api/fullstack-restore"
+  }
+}
